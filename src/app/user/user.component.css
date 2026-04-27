@@ -1,0 +1,36 @@
+.button {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+
+  background-color: #433352;
+  color: #c3b3d1;
+  font: inherit;
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button:active,
+.active {
+  background-color: #9965dd;
+  color: #150722;
+}
+
+.button__name {
+  font-size: 0.85rem;
+}
+
+.button__image {
+  height: 2.5rem;
+  object-fit: contain;
+  border-radius: 50%;
+}

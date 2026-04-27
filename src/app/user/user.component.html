@@ -1,0 +1,11 @@
+<!-- Basic option -->
+<!-- <button class="button" (click)="onSelectUser()"> -->
+<!-- <img class="button__image" [src]="imagePath" [alt]="selectedUser.name" /> -->
+<!-- <span class="button__name">{{ selectedUser.name }}</span> -->
+<!-- </button> -->
+
+<!-- Signals option -->
+<button class="button" (click)="onSelectUser()">
+  <img class="button__image" [src]="imagePath()" [alt]="selectedUser().name" />
+  <span class="button__name">{{ selectedUser().name }}</span>
+</button>

@@ -15,3 +15,18 @@ body {
   padding: 0;
   height: 100%;
 }
+
+main {
+  margin: 4rem auto;
+  width: 90%;
+  max-width: 50rem;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
