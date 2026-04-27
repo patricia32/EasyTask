@@ -6,6 +6,6 @@
 
 <!-- Signals option -->
 <button class="button" (click)="onSelectUser()">
-  <img class="button__image" [src]="imagePath()" [alt]="selectedUser().name" />
-  <span class="button__name">{{ selectedUser().name }}</span>
+  <img class="button__image" [src]="imagePath" [alt]="name" />
+  <span class="button__name">{{ name }}</span>
 </button>
